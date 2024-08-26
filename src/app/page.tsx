@@ -12,9 +12,9 @@ export default function Home() {
   return (
     <main className="">
       <div>
-        {/* <FloatingNavDemo /> */}
+        <FloatingNavDemo />
         {/* <Navbar /> */}
-        <FloatingNav navItems={navItems}/>
+        {/* <FloatingNav navItems={navItems}/> */}
         <BlurIn word={"lorem"}></BlurIn>
         <OrbitingCirclesDemo />
         <SparklesPreview />
