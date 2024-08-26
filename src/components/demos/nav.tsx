@@ -24,7 +24,7 @@ export function FloatingNavDemo() {
   ];
   return (
     <div className="relative  w-full">
-      <FloatingNav navItems={navItems}  />
+      <FloatingNav navItems={navItems} className={''}  />
     </div>
   );
 }
